@@ -44,13 +44,19 @@ main {
 }
 
 .write-btn {
+  background-color: var(--button-primary);
+  color: white;
+  padding: 10px 15px 10px 15px;
   font-size: 15px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 25px;
   position: fixed;
   bottom: 120px;
-  right: 30px;
-  padding: 10px 15px 10px 15px;
-  border-radius: 25px;
-  background-color: tomato;
-  color: white;
+  right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px 0px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: var(--button-hover);
 }
